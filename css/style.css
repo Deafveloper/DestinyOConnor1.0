@@ -1,7 +1,7 @@
 
 
 body {
-    background-color: black;
+    background-color: #fafaf6;
     height: 50em;
     position: relative }
 header {
@@ -15,7 +15,7 @@ header {
 
     h1 {
         font-size: 80px;
-        color: #da9d8c;
+        color: #ffd7d1;
     }
 
    ul {
@@ -29,7 +29,7 @@ header {
    }
 
    a {
-    color: #034c52;
+    color: #d3efb5;
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
    }
@@ -40,7 +40,7 @@ header {
 
    a:visited {
     text-decoration: none;
-    color: #ad854d;
+    color: #ccabd8;
    }
 
    a:hover {
@@ -52,7 +52,7 @@ header {
    }
 
    li a {
-    padding: 35px;
+    padding: 30px;
     
    }
    
