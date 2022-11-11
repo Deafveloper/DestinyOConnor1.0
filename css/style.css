@@ -1,9 +1,11 @@
 
 
 body {
-    background-color: #fafaf6;
+    background-color: #202019;
     height: 50em;
-    position: relative }
+    position: relative 
+}
+
 header {
     margin: 0;
     position: absolute;
@@ -15,7 +17,8 @@ header {
 
     h1 {
         font-size: 80px;
-        color: #ffd7d1;
+        color: #cad0ce;
+        resize: both;
     }
 
    ul {
@@ -29,9 +32,10 @@ header {
    }
 
    a {
-    color: #d3efb5;
+    color: #3d4f2f;
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
+    resize: both;
    }
 
    a:link {
@@ -40,11 +44,12 @@ header {
 
    a:visited {
     text-decoration: none;
-    color: #ccabd8;
+    color: #704b35;
    }
 
    a:hover {
     text-decoration: none;
+    color: #9e8f74;
    }
 
    a:active {
