@@ -1,24 +1,21 @@
-
-
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
+  
 body {
+    display: grid;
     background-color: #202019;
     height: 50em;
-    position: relative 
+    width: -50em;
+    place-items: center;
+    resize: both;
 }
 
-header {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) 
-}
 
     h1 {
         font-size: 80px;
         color: #cad0ce;
-        resize: both;
     }
 
    ul {
@@ -35,7 +32,6 @@ header {
     color: #3d4f2f;
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
-    resize: both;
    }
 
    a:link {
@@ -50,6 +46,7 @@ header {
    a:hover {
     text-decoration: none;
     color: #9e8f74;
+    background-color: white;
    }
 
    a:active {
@@ -57,7 +54,6 @@ header {
    }
 
    li a {
-    padding: 30px;
-    
+    padding: 35px;
    }
    
