@@ -12,7 +12,6 @@ body {
     resize: both;
 }
 
-
     h1 {
         font-size: 80px;
         color: #cad0ce;
@@ -46,7 +45,6 @@ body {
    a:hover {
     text-decoration: none;
     color: #9e8f74;
-    background-color: white;
    }
 
    a:active {
